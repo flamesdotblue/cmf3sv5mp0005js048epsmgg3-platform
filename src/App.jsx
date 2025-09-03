@@ -2,7 +2,6 @@ import React from 'react';
 import Hero from './components/Hero';
 import MeasuredYogaTherapy from './components/MeasuredYogaTherapy';
 import Programs from './components/Programs';
-import Testimonials from './components/Testimonials';
 import Footer from './components/Footer';
 
 export default function App() {
@@ -11,7 +10,6 @@ export default function App() {
       <Hero />
       <MeasuredYogaTherapy />
       <Programs />
-      <Testimonials />
       <Footer />
     </div>
   );

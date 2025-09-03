@@ -2,7 +2,7 @@ import React from 'react';
 import { HeartPulse, Activity, ShieldCheck, Stethoscope } from 'lucide-react';
 
 const Feature = ({ icon: Icon, title, desc }) => (
-  <div className="p-5 rounded-xl border bg-white/60 backdrop-blur-sm">
+  <div className="p-5 rounded-xl border bg-white/70 backdrop-blur-sm">
     <div className="flex items-center gap-3">
       <div className="shrink-0 p-2 rounded-lg bg-sky-50 text-sky-700">
         <Icon className="w-6 h-6" />
@@ -23,28 +23,28 @@ export default function MeasuredYogaTherapy() {
               Measured Yoga Therapy
             </h2>
             <p className="mt-4 text-slate-700 leading-relaxed">
-              Measured Yoga Therapy is an evidence-informed framework that blends traditional yoga practices with modern assessment tools. We focus on safe, incremental progressusing simple measurements to personalize breathwork, movement, and meditation for your goals.
+              Measured Yoga Therapy blends traditional yoga with modern assessment. We emphasize safety, personalization, and small, consistent steps forward—using simple measures to guide breathwork, movement, and meditation.
             </p>
             <div className="mt-6 grid sm:grid-cols-2 gap-4">
               <Feature
                 icon={HeartPulse}
                 title="Breath & Balance"
-                desc="Use gentle breath pacing and posture progressions to support calm, focus, and functional mobility."
+                desc="Support calm, focus, and functional mobility with breath pacing and gentle progressions."
               />
               <Feature
                 icon={Activity}
                 title="Track What Matters"
-                desc="Monitor simple indicators like perceived stress, breath rate pacing, and session adherence to guide progress."
+                desc="Use easy indicators like perceived stress, breath pacing, and adherence to inform next steps."
               />
               <Feature
                 icon={ShieldCheck}
                 title="Safety First"
-                desc="A gradual, adaptive approach with modifications and clear boundaries that respect your capacity."
+                desc="Clear boundaries, modifications, and gradual progression that respects your capacity."
               />
               <Feature
                 icon={Stethoscope}
                 title="Collaborative Care"
-                desc="Works alongside your clinicians and existing care plans when relevant for a coordinated experience."
+                desc="Coordinates with your clinicians and existing plans when relevant for a cohesive experience."
               />
             </div>
           </div>
@@ -56,14 +56,14 @@ export default function MeasuredYogaTherapy() {
                 <span className="mt-1 inline-flex h-6 w-6 items-center justify-center rounded-full bg-sky-600 text-white text-sm">1</span>
                 <div>
                   <p className="font-medium text-slate-900">Brief intake</p>
-                  <p className="text-sm">Clarify your goals, comfort level, and movement considerations.</p>
+                  <p className="text-sm">Clarify goals, comfort level, and movement considerations.</p>
                 </div>
               </li>
               <li className="flex gap-3">
                 <span className="mt-1 inline-flex h-6 w-6 items-center justify-center rounded-full bg-sky-600 text-white text-sm">2</span>
                 <div>
                   <p className="font-medium text-slate-900">Guided practice</p>
-                  <p className="text-sm">Personalized sequence of breathwork, mindful movement, and relaxation.</p>
+                  <p className="text-sm">A personalized sequence of breathwork, mindful movement, and relaxation.</p>
                 </div>
               </li>
               <li className="flex gap-3">
@@ -84,7 +84,7 @@ export default function MeasuredYogaTherapy() {
 
             <div className="mt-6 p-4 rounded-lg bg-sky-50 text-sky-900 border border-sky-100">
               <p className="text-sm">
-                Educational and wellness-focused. Not a substitute for medical diagnosis or treatment. Consult your clinician for medical questions.
+                Educational and wellness-focused; not a substitute for medical diagnosis or treatment. Consult your clinician for medical questions.
               </p>
             </div>
 

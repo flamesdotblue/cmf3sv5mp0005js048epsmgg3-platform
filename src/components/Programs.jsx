@@ -38,7 +38,7 @@ export default function Programs() {
       points: [
         'Breath ratios and relaxation techniques',
         'Short, repeatable evening sequence',
-        'Reflective prompts to lower mental load',
+        'Reflective prompts to reduce mental load',
       ],
       cta: 'Start Reset',
     },
@@ -60,7 +60,7 @@ export default function Programs() {
         <div className="max-w-3xl">
           <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900 tracking-tight">Programs</h2>
           <p className="mt-4 text-slate-700">
-            Choose a path that fits your current goals. Each program integrates assessment, guided practice, and a simple home plan.
+            Choose a path that fits your goals. Each program integrates assessment, guided practice, and a simple home plan.
           </p>
         </div>
 
